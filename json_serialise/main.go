@@ -127,4 +127,10 @@ func main() {
 	fmt.Println(tryDefer2())
 	fmt.Println("=================")
 	caller()
+
+	var dict map[string]string
+	dict = make(map[string]string)
+
+	dict["hello"] = "xin chao"
+	fmt.Println(dict["hello"])
 }
